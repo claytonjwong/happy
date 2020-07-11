@@ -7,10 +7,8 @@ class Wanting extends Component {
   }
   render() {
     return (
-      <View>
-        <Text style={{ margin: 30 }}>
-        Better Wanting
-        </Text>
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>Better Wanting</Text>
       </View>
     );
   }

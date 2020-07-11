@@ -7,10 +7,8 @@ class Habits extends Component {
   }
   render() {
     return (
-      <View>
-        <Text style={{ margin: 30 }}>
-          Better Habits
-        </Text>
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>Better Habits</Text>
       </View>
     );
   }

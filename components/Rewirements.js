@@ -7,10 +7,8 @@ class Rewirements extends Component {
   }
   render() {
     return (
-      <View>
-        <Text style={{ margin: 30 }}>
-          Rewirements
-        </Text>
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>Rewirements</Text>
       </View>
     );
   }

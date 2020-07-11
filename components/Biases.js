@@ -7,10 +7,8 @@ class Biases extends Component {
   }
   render() {
     return (
-      <View>
-        <Text style={{ margin: 30 }}>
-          Overcome Biases
-        </Text>
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>Overcoming Biases</Text>
       </View>
     );
   }
