@@ -15,12 +15,12 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home'>
-        <Stack.Screen name='Annoying' component={Annoying} />
-        <Stack.Screen name='Biases' component={Biases} />
-        <Stack.Screen name='Habits' component={Habits} />
-        <Stack.Screen name='Home' component={Home} />
-        <Stack.Screen name='Rewirements' component={Rewirements} />
-        <Stack.Screen name='Wanting' component={Wanting} />
+        <Stack.Screen name='Annoying' component={Annoying} options={{ title: 'Mind\'s Annoying Features' }} />
+        <Stack.Screen name='Biases' component={Biases} options={{ title: 'Overcoming Biases' }} />
+        <Stack.Screen name='Habits' component={Habits} options={{ title: 'Better Habits' }} />
+        <Stack.Screen name='Home' component={Home} options={{ title: 'Home' }} />
+        <Stack.Screen name='Rewirements' component={Rewirements} options={{ title: 'Rewirements' }} />
+        <Stack.Screen name='Wanting' component={Wanting} options={{ title: 'Better Wanting' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

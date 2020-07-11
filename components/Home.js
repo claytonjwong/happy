@@ -6,7 +6,7 @@ const Home = ({ navigation }) => {
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Screen</Text>
       <Button
-        title='Annoying Features of the Mind'
+        title="Mind's Annoying Features"
         onPress={() => navigation.navigate('Annoying')}
       />
       <Button
